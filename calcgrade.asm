@@ -2,6 +2,7 @@ include Irvine32.inc
 .data
 str1 BYTE ": The letter grade is ",0
 grade BYTE ?
+
 .code
 main PROC
 ; your codes go here.
@@ -20,6 +21,9 @@ Grade_A:
 Grade_B:
 ; your codes go here.
 ;Repeat for Grade_C, Grade_D, and Grade_F
+Grade_C:
+Grade_D:
+Grade_F:
 finished:
  ret
 CalcGrade endp
